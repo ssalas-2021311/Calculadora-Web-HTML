@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Calculadora web</title>
+    <link rel="stylesheet" type="text/css" href="./css/estilo-css.css" />
+</head>
+
+<body>
+    <header>Calculadora web</header>
+    <div class="contenedor">
+        <div class="calculadora">
+            <div class="display">
+                <div id="valor-anterior"></div>
+                <div id="valor-actual"></div>
+            </div>
+            <button class="col-2" onclick="display.borrarTodo()">AC</button>
+            <button onclick="display.borrar()">&larr;</button>
+            <button class="operador" value="dividir">÷</button>
+            <button class="numero">7</button>
+            <button class="numero">8</button>
+            <button class="numero">9</button>
+            <button class="operador" value="multiplicar">x</button>
+            <button class="numero">4</button>
+            <button class="numero">5</button>
+            <button class="numero">6</button>
+            <button class="operador" value="restar">-</button>
+            <button class="numero">1</button>
+            <button class="numero">2</button>
+            <button class="numero">3</button>
+            <button class="operador" value="sumar">+</button>
+            <button class="numero">0</button>
+            <button class="numero">.</button>
+            <button class="col-2 operador" value="igual">=</button>
+        </div>
+    </div>
+    <footer><p id="color-footer"> &copy;Shiro William Salas Pérez - 2021311 - IN5BVG2</p></footer>
+</body>
+<script type="text/javascript" src="./js/Calculadora.js"></script>
+<script type="text/javascript" src="./js/script.js" defer></script>
+<script type="text/javascript" src="./js/Display.js"></script>
+</html>
